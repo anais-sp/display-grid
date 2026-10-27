@@ -1,0 +1,20 @@
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+
+.caja{
+    text-align: center;
+
+    border-width: 1px;
+    border-color: rgb(50, 122, 122);
+    border-style: solid;
+
+    border-radius: 5px;
+}
+
+.destacada{
+    grid-column: span 2;
+}

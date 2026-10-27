@@ -1,0 +1,27 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grupo-tarjeta{
+    display: grid;
+    grid-template-columns: repeat(1 ,1fr);
+    gap: 10px;
+}
+
+.tarjeta{
+    text-align: center;
+
+    border-width: 1px;
+    border-color: rgb(50, 122, 122);
+    border-style: solid;
+
+    border-radius: 5px;
+}
+
+@media(min-width: 768px){
+.grupo-tarjeta{
+    grid-template-columns: repeat(3 , 1fr);
+}
+}
